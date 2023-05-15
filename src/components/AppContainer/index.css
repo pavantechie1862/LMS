@@ -1,0 +1,145 @@
+.app-container {
+  max-width: 1110px;
+  margin: auto;
+}
+
+.title {
+  font-size: 20px;
+  color: #3e4c59;
+  text-align: center;
+  margin: 12px 0px;
+  font-family: "Roboto";
+}
+
+@media screen and (min-width: 992px) {
+  .title {
+    font-size: 30px;
+    margin-top: 48px;
+    margin-bottom: 24px;
+  }
+}
+
+.description {
+  font-size: 16px;
+  text-align: center;
+  line-height: 32px;
+  color: #616e7c;
+  margin: auto;
+  margin-bottom: 40px;
+  max-width: 90%;
+}
+
+@media screen and (min-width: 992px) {
+  .description {
+    font-size: 18px;
+  }
+}
+
+.tabs-container {
+  max-width: 300px;
+  margin: auto;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+}
+
+@media screen and (min-width: 992px) {
+  .tabs-container {
+    max-width: 455px;
+  }
+}
+
+.courses-list-container {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 12px;
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 992px) {
+  .courses-list-container {
+    margin-bottom: 150px;
+  }
+}
+
+/*==========================*/
+
+.courses-error-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  padding-bottom: 64px;
+}
+
+@media screen and (min-width: 768px) {
+  .courses-error-view-container {
+    margin-top: 0px;
+    width: 70%;
+    padding-bottom: 0;
+  }
+}
+
+.courses-failure-img {
+  width: 250px;
+  height: 200px;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .courses-failure-img {
+    width: 400px;
+    height: 350px;
+  }
+}
+
+.product-failure-heading-text {
+  color: #171f46;
+
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+@media screen and (min-width: 768px) {
+  .product-failure-heading-text {
+    font-size: 24px;
+  }
+}
+
+.courses-failure-description {
+  text-align: center;
+  color: #64748b;
+
+  font-size: 14px;
+  width: 90%;
+  max-width: 288px;
+  line-height: 1.3;
+}
+
+@media screen and (min-width: 768px) {
+  .courses-failure-description {
+    font-size: 18px;
+    width: 60%;
+    max-width: 466px;
+  }
+}
+
+.courses-loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  margin: 0px auto;
+}
+
+@media screen and (min-width: 768px) {
+  .courses-loader-container {
+    width: 70%;
+  }
+}

@@ -1,0 +1,15 @@
+.start-resume-btn {
+  color: #0b69ff;
+  background-color: transparent;
+  font-size: 12px;
+  border-radius: 6px;
+  border: 1px solid #0b69ff;
+  padding: 8px 16px;
+  outline: none;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.popup-display-message {
+  color: red;
+}
